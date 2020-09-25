@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context=".MainActivity">
+
+    <fragment
+        android:id="@+id/AIActivity"
+        android:name="com.example.lukapiplica_lab1_ex1.AIActivity"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="106dp"
+        tools:visibility="visible" />
+
+    <fragment
+        android:id="@+id/VRActivity"
+        android:name="com.example.lukapiplica_lab1_ex1.VRActivity"
+        android:layout_width="79dp"
+        android:layout_height="29dp"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="166dp"
+        tools:visibility="visible" />
+</androidx.constraintlayout.widget.ConstraintLayout>
