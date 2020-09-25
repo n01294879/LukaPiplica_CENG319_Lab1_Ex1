@@ -26,4 +26,12 @@
         tools:layout_editor_absoluteX="44dp"
         tools:layout_editor_absoluteY="166dp"
         tools:visibility="visible" />
+
+    <fragment
+        android:id="@+id/fragment4"
+        android:name="com.example.lukapiplica_lab1_ex1.BottomFragment"
+        android:layout_width="348dp"
+        android:layout_height="370dp"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="338dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
